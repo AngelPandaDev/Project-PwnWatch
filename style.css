@@ -1,0 +1,57 @@
+/* Reset & Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0a0f1c;
+    color: white;
+    font: 15px Arial, sans-serif;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+/* Layout Grid */
+.main-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+/* Card Style */
+.result-box {
+    background: #0f172a;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-left: 4px solid #3b82f6;
+}
+
+/* For images and titles */
+.result-box h2 {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.result-box p {
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+/* Responsive Grid Adapters */
+@media (max-width: 1000px) {
+    .main-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .main-layout {
+        grid-template-columns: 1fr;
+    }
+}
