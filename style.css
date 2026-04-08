@@ -55,3 +55,32 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+/* Controls */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.controls input,
+.controls select,
+.controls button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* LIGHT MODE */
+.light-mode {
+    background: #f5f5f5;
+    color: black;
+}
+
+.light-mode .result-box {
+    background: white;
+    color: black;
+    border-left: 4px solid #2563eb;
+}
