@@ -18,6 +18,13 @@ The goal of PwnWatch is to:
 
 ---
 
+## Live Demo
+
+* 🚀 **Deployed Application:**
+  👉 https://angelpandadev.github.io/Project-PwnWatch/
+
+---
+
 ## 🌐 Public API Used
 
 * **Have I Been Pwned API**
@@ -32,10 +39,11 @@ The goal of PwnWatch is to:
 * Retrieves breach data using the **Fetch API**
 * Dynamically renders data using `.map()`
 * Displays:
-  * Company name
-  * Breach date
-  * Description
-  * Logo
+  * 🏢 Company name
+  * 📅 Breach date
+  * 📝 Description
+  * 🧾 Compromised data
+  * 🖼️ Logo
 
 ---
 
@@ -107,8 +115,11 @@ The goal of PwnWatch is to:
 ## ⚙️ How to Run the Project
 
 1. Download or clone the project
+   `git clone https://github.com/AngelPandaDev/Project-PwnWatch.git`
 2. Open the project folder
+   `cd Project-PwnWatch`
 3. Run `index.html` in your browser
+   `open index.html`
 
 ---
 
@@ -117,17 +128,7 @@ The goal of PwnWatch is to:
 * ✅ Milestone 1: Project Idea & Planning
 * ✅ Milestone 2: API Integration
 * ✅ Milestone 3: Core Features (Search, Sort, Theme)
-* ⏳ Milestone 4: Advanced Features & Deployment
-
----
-
-## 🚧 Future Improvements
-
-* Risk scoring system
-* Email-based breach search
-* Filtering by data type
-* Analytics dashboard
-* Export report feature
+* ✅ Milestone 4: Documentation & Deployment
 
 ---
 
